@@ -29,6 +29,13 @@
 
 **[Jobe-Search-Mobile-App]** is a mobile application that allows users to search for jobs and apply for them. It is built with React, redux and NodeJS .
 
+## Pictures
+
+- ![Screenshot from 2023-04-05 21-00-37](https://user-images.githubusercontent.com/104095543/230137938-54cca3a1-f3ae-42aa-a0b2-357a56d3821a.png)
+- ![Screenshot from 2023-04-05 21-02-03](https://user-images.githubusercontent.com/104095543/230138135-e9b0bb98-3470-441d-b7bf-77842d916799.png)
+
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
