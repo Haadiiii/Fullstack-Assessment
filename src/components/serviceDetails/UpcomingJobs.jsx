@@ -10,7 +10,7 @@ const UpcomingJobs = () => {
             className="flex flex-col gap-2 p-5"
         >
           <p
-            className="text-gray-500 text-md
+            className="text-gray-500 text-sm
                 font-bold"
           >
             4pm today
