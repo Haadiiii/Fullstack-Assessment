@@ -1,38 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -60,17 +25,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Jobe-Search-Mobile-App] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Jobe-Search-Mobile-App]** is a mobile application that allows users to search for jobs and apply for them. It is built with React, redux and NodeJS .
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+>
 
 <details>
   <summary>Client</summary>
@@ -89,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.postgresql.org/">MongoDB</a></li>
   </ul>
 </details>
 
@@ -99,11 +62,14 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- you can see the list of jobs
+- you can Post a job
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Backend Repo
+
+[Fullstack-Assesment-backend](https://github.com/Haadiiii/Fullstack-Assesment-backend)
 
 <!-- LIVE DEMO -->
 
@@ -114,12 +80,9 @@ After you're finished please remove all the comments and instructions!
 - [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -127,67 +90,34 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- [Node.js](https://nodejs.dev/en/) installed
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Haadiiii/Fullstack-Assessment.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd Fullstack-Assessment
+
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm run dev
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
 
 <!--
 Example:
@@ -201,21 +131,13 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Haamid Ali**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Haadiiii](https://github.com/Haadiiii)
+- Twitter: [@HaaDiii_99](https://twitter.com/HaaDiii_99)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-ali-01a872213/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +145,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Update_JOB_POSTER**
+- **Update_Service_Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +156,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Haadiiii/Fullstack-Assessment-backend/issues/new)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +164,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, kindly give as a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +172,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+- i would like to thank GrayHat for giving me this opportunity to work on this project.
+- i would like to thank my standup team for their support and guidance.
+- i would like to thank my coding partner for his support and guidance.
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,24 +183,18 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Why did you choose react?**
 
-- **[Question_1]**
+  - [The biggest advantage of using it is that you can change any component at any point in time without affecting the other components. This alone results in widespread support among both clients and service providers.](https://blog.nextstacks.com/reasons-to-choose-react/#:~:text=Advantages%20of%20React%20over%20other%20frameworks%201%20Code,to%20Learn%20...%206%20Better%20Development%20Experience%20)
 
-  - [Answer_1]
+- **What is redux?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - [Redux is simply a store to store the state of the variables in your app.](https://medium.com/swlh/what-is-redux-b16b42b33820)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
