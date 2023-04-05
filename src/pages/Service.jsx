@@ -1,21 +1,16 @@
-import React, { useState } from "react";
-import profile from "../assets/Ellipse.png";
-import UpcomingJobs from "../components/serviceDetails/UpcomingJobs";
-import BrowserJobs from "../components/serviceDetails/BrowserJobs";
+import React from 'react';
+import profile from '../assets/Ellipse.png';
+import UpcomingJobs from '../components/serviceDetails/UpcomingJobs';
+import BrowserJobs from '../components/serviceDetails/BrowserJobs';
 
 const Service = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const jobs = [<UpcomingJobs />];
+  const jobs = [
+    <UpcomingJobs />,
+  ];
 
-  const browse = [<BrowserJobs />];
-
-  const handleSwipe = (index, indexLatest) => {
-    if (index < indexLatest) {
-      setCurrentIndex(currentIndex - 1);
-    } else if (index > indexLatest) {
-      setCurrentIndex(currentIndex + 1);
-    }
-  };
+  const browse = [
+    <BrowserJobs />,
+  ];
 
   return (
     <div className="flex flex-col bg-slate-900 h-screen w-screen">
@@ -23,7 +18,7 @@ const Service = () => {
       <div
         className="flex flex-row py-2 px-4"
         onClick={() => {
-          window.location.href = "/";
+          window.location.href = '/';
         }}
       >
         <svg
@@ -43,7 +38,7 @@ const Service = () => {
       </div>
       <div className="flex gap-4 px-4">
         <div>
-          {" "}
+          {' '}
           <img className="w-16 h-16 rounded-full mt-10" src={profile} alt="" />
         </div>
         <div className="flex flex-col mt-12">
@@ -56,9 +51,8 @@ const Service = () => {
           Upcoming Jobs
         </h1>
         <div
-          className=" flex gap-4 rounded-2xl"
-          index={currentIndex}
-          onTransitionEnd={handleSwipe}
+          className=" flex gap-4 rounded-2xl
+          overflow-x-scroll overflow-y-hidden"
         >
           {jobs.map((job, index) => (
             <div key={index} className="slide">
@@ -73,9 +67,10 @@ const Service = () => {
         </h1>
 
         <div
-          className=" flex gap-4 rounded-2xl"
-          index={currentIndex}
-          onTransitionEnd={handleSwipe}
+          className=" flex gap-4 rounded-2xl
+          overflow-x-scroll overflow-y-hidden
+          "
+
         >
           {browse.map((job, index) => (
             <div key={index} className="slide">
