@@ -13,7 +13,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="flex flex-col bg-slate-900">
+    <div className="flex flex-col bg-slate-900 min-h-screen">
       {/* back arrow to home */}
       <div
         className="flex flex-row py-2 px-4"
