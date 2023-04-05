@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import profile from "../assets/Ellipse.png";
-import UpcomingJobs from "../components/serviceDetails/UpcomingJobs";
-import BrowserJobs from "../components/serviceDetails/BrowserJobs";
+import React, { useState } from 'react';
+import profile from '../assets/Ellipse.png';
+import UpcomingJobs from '../components/serviceDetails/UpcomingJobs';
+import BrowserJobs from '../components/serviceDetails/BrowserJobs';
 
 const Service = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,7 +25,7 @@ const Service = () => {
     <div className="flex flex-col bg-black h-screen w-screen">
       <div className="flex bg-black gap-4 p-4">
         <div>
-          {" "}
+          {' '}
           <img className="w-16 h-16 rounded-full mt-10" src={profile} alt="" />
         </div>
         <div className="flex flex-col mt-12">
